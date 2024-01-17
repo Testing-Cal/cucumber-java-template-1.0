@@ -254,15 +254,9 @@ pipeline {
      }
   }
   post { 
-        failure {
-                  pushToCollector()
-                }
-                success {
-                  pushToCollector()
-                }
-                aborted {
-                            pushToCollector()
-                        }
+        always {
+            pushToCollector()
+        }
   }
 
 }
