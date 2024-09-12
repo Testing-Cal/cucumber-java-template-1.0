@@ -1,3 +1,2 @@
-# cucumber-java-template-1.0
-
-Cucumber java template
+#Cucumber
+The files in this sample template are provided for guidance purposes only. They should be customized and adapted to meet the specific requirements of your application.
